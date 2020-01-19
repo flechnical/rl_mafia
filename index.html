@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rocket League Mafia</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
+    <script src="https://unpkg.com/peerjs@1.0.4/dist/peerjs.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="./index.html"
+          ><span>Rocket</span> <span>League</span>
+          <span class="red">Mafia</span></a
+        >
+      </h1>
+      <div>
+        <span id="shareDesc">Click to copy sharable host-link:</span>
+        <span id="peerID" class="btn"></span>
+      </div>
+      <input type="text" id="adminLink" />
+    </header>
+    <section id="loading">
+      <p>Loading...</p>
+    </section>
+    <section id="chooseHost">
+      <div id="hostOption">
+        Host Game
+        <form id="hostnameForm">
+          <label>Your name:</label>
+          <input type="text" id="hostnameInput" placeholder="Name" />
+          <input type="submit" value="Send" id="hostnameButton" />
+        </form>
+      </div>
+      <div id="userOption">
+        Join Game
+        <form id="adminForm">
+          <label>Enter host-ID:</label>
+          <input type="text" id="adminIdInput" placeholder="ID" />
+          <input type="submit" value="Connect" id="connectButton" />
+        </form>
+        <form id="usernameForm">
+          <label>Your name:</label>
+          <input type="text" id="usernameInput" placeholder="Name" />
+          <input type="submit" value="Send" id="usernameButton" />
+        </form>
+      </div>
+    </section>
+    <section id="adminPanel">
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+    </section>
+    <section id="userPanel">
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+      Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Optio voluptatibus voluptatum architecto!
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+      <input type="range" min="1" max="99" value="50" id="probSlider" />
+      <input type="text" value="50" id="probText" />
+    </div>
+    <br />
+    <br />
+    <footer>
+      <div id="players"></div>
+      <div id="aside">
+        Link to GitHub Page (leave feedback and suggestions or create your own
+        Fork of the project)
+      </div>
+    </footer>
+    <script src="./js/roleroll.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

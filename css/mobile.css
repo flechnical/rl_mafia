@@ -1,0 +1,20 @@
+@media (max-width: 860px) {
+  header {
+    height: 120px;
+    position: relative;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+  header div {
+    font-size: 0.8rem;
+  }
+  header h1 a span,
+  header div span {
+    display: block;
+    margin: 0.2rem 0;
+  }
+  header div span#peerID {
+    float: right;
+  }
+}
